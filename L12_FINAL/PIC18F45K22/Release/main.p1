@@ -1,0 +1,3728 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"32 ../GLCD.h
+[v _putchGLCD `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"53 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f45k22.h
+[v _ANSELA `Vuc ~T0 @X0 0 e@3896 ]
+"98
+[v _ANSELB `Vuc ~T0 @X0 0 e@3897 ]
+"148
+[v _ANSELC `Vuc ~T0 @X0 0 e@3898 ]
+"199
+[v _ANSELD `Vuc ~T0 @X0 0 e@3899 ]
+"6281
+[v _PORTA `Vuc ~T0 @X0 0 e@3968 ]
+"6566
+[v _PORTB `Vuc ~T0 @X0 0 e@3969 ]
+"7143
+[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
+"8061
+[v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"8283
+[v _TRISB `Vuc ~T0 @X0 0 e@3987 ]
+"8727
+[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
+"8505
+[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
+"8516
+[s S402 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S402 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"8526
+[s S403 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S403 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"8515
+[u S401 `S402 1 `S403 1 ]
+[n S401 . . . ]
+"8537
+[v _TRISCbits `VS401 ~T0 @X0 0 e@3988 ]
+"16893
+[v _INTCON `Vuc ~T0 @X0 0 e@4082 ]
+"15795
+[v _RCON `Vuc ~T0 @X0 0 e@4048 ]
+"16096
+[v _T0CON `Vuc ~T0 @X0 0 e@4053 ]
+"16193
+[v _TMR0H `Vuc ~T0 @X0 0 e@4055 ]
+"16173
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"16823
+[v _INTCON2 `Vuc ~T0 @X0 0 e@4081 ]
+"9421
+[s S433 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S433 . TMR1IE TMR2IE CCP1IE SSP1IE TX1IE RC1IE ADIE ]
+"9430
+[s S434 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S434 . . SSPIE TXIE RCIE ]
+"9420
+[u S432 `S433 1 `S434 1 ]
+[n S432 . . . ]
+"9437
+[v _PIE1bits `VS432 ~T0 @X0 0 e@3997 ]
+"13205
+[s S619 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S619 . T2CKPS TMR2ON T2OUTPS ]
+"13210
+[s S620 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S620 . T2CKPS0 T2CKPS1 . T2OUTPS0 T2OUTPS1 T2OUTPS2 T2OUTPS3 ]
+"13204
+[u S618 `S619 1 `S620 1 ]
+[n S618 . . . ]
+"13220
+[v _T2CONbits `VS618 ~T0 @X0 0 e@4026 ]
+"13270
+[v _PR2 `Vuc ~T0 @X0 0 e@4027 ]
+"13316
+[s S626 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S626 . CCP1M DC1B P1M ]
+"13321
+[s S627 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S627 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 DC1B0 DC1B1 P1M0 P1M1 ]
+"13315
+[u S625 `S626 1 `S627 1 ]
+[n S625 . . . ]
+"13332
+[v _CCP1CONbits `VS625 ~T0 @X0 0 e@4029 ]
+"13399
+[v _CCPR1L `Vuc ~T0 @X0 0 e@4030 ]
+"16019
+[s S758 :2 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S758 . SCS HFIOFS OSTS IRCF IDLEN ]
+"16026
+[s S759 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S759 . SCS0 SCS1 IOFS . IRCF0 IRCF1 IRCF2 ]
+"16018
+[u S757 `S758 1 `S759 1 ]
+[n S757 . . . ]
+"16036
+[v _OSCCONbits `VS757 ~T0 @X0 0 e@4051 ]
+"11333
+[v _SPBRG1 `Vuc ~T0 @X0 0 e@4015 ]
+"11411
+[v _SPBRGH1 `Vuc ~T0 @X0 0 e@4016 ]
+"10817
+[s S495 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S495 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"10827
+[s S496 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S496 . TX9D1 TRMT1 BRGH1 SENDB1 SYNC1 TXEN1 TX91 CSRC1 ]
+"10837
+[s S497 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S497 . TXD8 . TX8_9 ]
+"10816
+[u S494 `S495 1 `S496 1 `S497 1 ]
+[n S494 . . . . ]
+"10843
+[v _TXSTA1bits `VS494 ~T0 @X0 0 e@4012 ]
+"12394
+[s S581 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S581 . ABDEN WUE . BRG16 CKTXP DTRXP RCIDL ABDOVF ]
+"12404
+[s S582 :4 `uc 1 :1 `uc 1 ]
+[n S582 . . SCKP ]
+"12408
+[s S583 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S583 . ABDEN1 WUE1 . BRG161 SCKP1 DTRXP1 RCIDL1 ABDOVF1 ]
+"12418
+[s S584 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S584 . . TXCKP RXDTP RCMT ]
+"12424
+[s S585 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S585 . . TXCKP1 RXDTP1 RCMT1 ]
+"12430
+[s S586 :5 `uc 1 :1 `uc 1 ]
+[n S586 . . RXCKP ]
+"12434
+[s S587 :1 `uc 1 :1 `uc 1 ]
+[n S587 . . W4E ]
+"12393
+[u S580 `S581 1 `S582 1 `S583 1 `S584 1 `S585 1 `S586 1 `S587 1 ]
+[n S580 . . . . . . . . ]
+"12439
+[v _BAUDCON1bits `VS580 ~T0 @X0 0 e@4024 ]
+"10361
+[s S474 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S474 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"10371
+[s S475 :3 `uc 1 :1 `uc 1 ]
+[n S475 . . ADEN ]
+"10375
+[s S476 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S476 . RX9D1 OERR1 FERR1 ADDEN1 CREN1 SREN1 RX91 SPEN1 ]
+"10385
+[s S477 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S477 . RCD8 . RC8_9 ]
+"10390
+[s S478 :6 `uc 1 :1 `uc 1 ]
+[n S478 . . RC9 ]
+"10394
+[s S479 :5 `uc 1 :1 `uc 1 ]
+[n S479 . . SRENA ]
+"10360
+[u S473 `S474 1 `S475 1 `S476 1 `S477 1 `S478 1 `S479 1 ]
+[n S473 . . . . . . . ]
+"10399
+[v _RCSTA1bits `VS473 ~T0 @X0 0 e@4011 ]
+"10937
+[s S499 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S499 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"10947
+[s S500 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S500 . TX9D1 TRMT1 BRGH1 SENDB1 SYNC1 TXEN1 TX91 CSRC1 ]
+"10957
+[s S501 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S501 . TXD8 . TX8_9 ]
+"10936
+[u S498 `S499 1 `S500 1 `S501 1 ]
+[n S498 . . . . ]
+"10963
+[v _TXSTAbits `VS498 ~T0 @X0 0 e@4012 ]
+"13584
+[s S640 :1 `uc 1 :1 `uc 1 ]
+[n S640 . . GO_NOT_DONE ]
+"13588
+[s S641 :1 `uc 1 :1 `uc 1 :5 `uc 1 ]
+[n S641 . ADON GO_nDONE CHS ]
+"13593
+[s S642 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S642 . . GO CHS0 CHS1 CHS2 CHS3 CHS4 ]
+"13602
+[s S643 :1 `uc 1 :1 `uc 1 ]
+[n S643 . . DONE ]
+"13606
+[s S644 :1 `uc 1 :1 `uc 1 ]
+[n S644 . . NOT_DONE ]
+"13610
+[s S645 :1 `uc 1 :1 `uc 1 ]
+[n S645 . . nDONE ]
+"13614
+[s S646 :1 `uc 1 :1 `uc 1 ]
+[n S646 . . GO_DONE ]
+"13618
+[s S647 :1 `uc 1 :1 `uc 1 ]
+[n S647 . . GODONE ]
+"13583
+[u S639 `S640 1 `S641 1 `S642 1 `S643 1 `S644 1 `S645 1 `S646 1 `S647 1 ]
+[n S639 . . . . . . . . . ]
+"13623
+[v _ADCON0bits `VS639 ~T0 @X0 0 e@4034 ]
+"13516
+[s S636 :2 `uc 1 :2 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S636 . NVCFG PVCFG . TRIGSEL ]
+"13522
+[s S637 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S637 . NVCFG0 NVCFG1 PVCFG0 PVCFG1 ]
+"13528
+[s S638 :3 `uc 1 :1 `uc 1 ]
+[n S638 . . CHSN3 ]
+"13515
+[u S635 `S636 1 `S637 1 `S638 1 ]
+[n S635 . . . . ]
+"13533
+[v _ADCON1bits `VS635 ~T0 @X0 0 e@4033 ]
+"13445
+[s S633 :3 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S633 . ADCS ACQT . ADFM ]
+"13451
+[s S634 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S634 . ADCS0 ADCS1 ADCS2 ACQT0 ACQT1 ACQT2 ]
+"13444
+[u S632 `S633 1 `S634 1 ]
+[n S632 . . . ]
+"13460
+[v _ADCON2bits `VS632 ~T0 @X0 0 e@4032 ]
+"24 ../GLCD.h
+[v _GLCDinit `(v ~T0 @X0 0 ef ]
+"37
+[v _clearGLCD `(v ~T0 @X0 0 ef4`uc`uc`uc`uc ]
+"15
+[v _setStartLine `(v ~T0 @X0 0 ef1`uc ]
+"27
+[v _writeByte `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"9498 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f45k22.h
+[s S436 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S436 . TMR1IF TMR2IF CCP1IF SSP1IF TX1IF RC1IF ADIF ]
+"9507
+[s S437 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S437 . . SSPIF TXIF RCIF ]
+"9497
+[u S435 `S436 1 `S437 1 ]
+[n S435 . . . ]
+"9514
+[v _PIR1bits `VS435 ~T0 @X0 0 e@3998 ]
+"11177
+[v _TXREG1 `Vuc ~T0 @X0 0 e@4013 ]
+"49 ../GLCD.h
+[v _writeNum `(v ~T0 @X0 0 ef3`uc`uc`i ]
+"43
+[v _SetDot `(v ~T0 @X0 0 ef2`uc`uc ]
+"75 C:\Program Files\Microchip\xc8\v2.32\pic\include\c90\stdlib.h
+[v _rand `(i ~T0 @X0 0 ef ]
+"6287 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f45k22.h
+[s S327 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S327 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"6297
+[s S328 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S328 . AN0 AN1 AN2 AN3 . AN4 ]
+"6305
+[s S329 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S329 . C12IN0M C12IN1M C2INP C1INP C1OUT C2OUT ]
+"6313
+[s S330 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S330 . C12IN0N C12IN1N VREFM VREFP T0CKI SS ]
+"6321
+[s S331 :5 `uc 1 :1 `uc 1 ]
+[n S331 . . NOT_SS ]
+"6325
+[s S332 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S332 . . VREFN . SRQ nSS ]
+"6332
+[s S333 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S333 . . CVREF . LVDIN ]
+"6338
+[s S334 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S334 . . DACOUT . HLVDIN ]
+"6344
+[s S335 :5 `uc 1 :1 `uc 1 ]
+[n S335 . . SS1 ]
+"6348
+[s S336 :5 `uc 1 :1 `uc 1 ]
+[n S336 . . NOT_SS1 ]
+"6352
+[s S337 :5 `uc 1 :1 `uc 1 ]
+[n S337 . . nSS1 ]
+"6356
+[s S338 :5 `uc 1 :1 `uc 1 ]
+[n S338 . . SRNQ ]
+"6360
+[s S339 :1 `uc 1 :6 `uc 1 :1 `uc 1 ]
+[n S339 . ULPWUIN . RJPU ]
+"6286
+[u S326 `S327 1 `S328 1 `S329 1 `S330 1 `S331 1 `S332 1 `S333 1 `S334 1 `S335 1 `S336 1 `S337 1 `S338 1 `S339 1 ]
+[n S326 . . . . . . . . . . . . . . ]
+"6366
+[v _PORTAbits `VS326 ~T0 @X0 0 e@3968 ]
+"13730
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"13710
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"20246
+[v _TMR0IE `Vb ~T0 @X0 0 e@32661 ]
+"20249
+[v _TMR0IF `Vb ~T0 @X0 0 e@32658 ]
+"20291
+[v _TMR2IE `Vb ~T0 @X0 0 e@31977 ]
+"20294
+[v _TMR2IF `Vb ~T0 @X0 0 e@31985 ]
+[p mainexit ]
+[v F38 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:\Program Files\Microchip\xc8\v2.32\pic\include\builtins.h
+[v __delay `JF38 ~T0 @X0 0 e ]
+[p i __delay ]
+"19418 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f45k22.h
+[v _RC1IF `Vb ~T0 @X0 0 e@31989 ]
+"11255
+[v _RCREG1 `Vuc ~T0 @X0 0 e@4014 ]
+"55 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f45k22.h
+[; <" ANSELA equ 0F38h ;# ">
+"100
+[; <" ANSELB equ 0F39h ;# ">
+"150
+[; <" ANSELC equ 0F3Ah ;# ">
+"201
+[; <" ANSELD equ 0F3Bh ;# ">
+"263
+[; <" ANSELE equ 0F3Ch ;# ">
+"295
+[; <" PMD2 equ 0F3Dh ;# ">
+"333
+[; <" PMD1 equ 0F3Eh ;# ">
+"398
+[; <" PMD0 equ 0F3Fh ;# ">
+"475
+[; <" VREFCON2 equ 0F40h ;# ">
+"480
+[; <" DACCON1 equ 0F40h ;# ">
+"577
+[; <" VREFCON1 equ 0F41h ;# ">
+"582
+[; <" DACCON0 equ 0F41h ;# ">
+"697
+[; <" VREFCON0 equ 0F42h ;# ">
+"702
+[; <" FVRCON equ 0F42h ;# ">
+"791
+[; <" CTMUICON equ 0F43h ;# ">
+"796
+[; <" CTMUICONH equ 0F43h ;# ">
+"941
+[; <" CTMUCONL equ 0F44h ;# ">
+"946
+[; <" CTMUCON1 equ 0F44h ;# ">
+"1095
+[; <" CTMUCONH equ 0F45h ;# ">
+"1100
+[; <" CTMUCON0 equ 0F45h ;# ">
+"1207
+[; <" SRCON1 equ 0F46h ;# ">
+"1269
+[; <" SRCON0 equ 0F47h ;# ">
+"1340
+[; <" CCPTMRS1 equ 0F48h ;# ">
+"1392
+[; <" CCPTMRS0 equ 0F49h ;# ">
+"1466
+[; <" T6CON equ 0F4Ah ;# ">
+"1537
+[; <" PR6 equ 0F4Bh ;# ">
+"1557
+[; <" TMR6 equ 0F4Ch ;# ">
+"1577
+[; <" T5GCON equ 0F4Dh ;# ">
+"1672
+[; <" T5CON equ 0F4Eh ;# ">
+"1781
+[; <" TMR5 equ 0F4Fh ;# ">
+"1788
+[; <" TMR5L equ 0F4Fh ;# ">
+"1808
+[; <" TMR5H equ 0F50h ;# ">
+"1828
+[; <" T4CON equ 0F51h ;# ">
+"1899
+[; <" PR4 equ 0F52h ;# ">
+"1919
+[; <" TMR4 equ 0F53h ;# ">
+"1939
+[; <" CCP5CON equ 0F54h ;# ">
+"2003
+[; <" CCPR5 equ 0F55h ;# ">
+"2010
+[; <" CCPR5L equ 0F55h ;# ">
+"2030
+[; <" CCPR5H equ 0F56h ;# ">
+"2050
+[; <" CCP4CON equ 0F57h ;# ">
+"2114
+[; <" CCPR4 equ 0F58h ;# ">
+"2121
+[; <" CCPR4L equ 0F58h ;# ">
+"2141
+[; <" CCPR4H equ 0F59h ;# ">
+"2161
+[; <" PSTR3CON equ 0F5Ah ;# ">
+"2237
+[; <" ECCP3AS equ 0F5Bh ;# ">
+"2242
+[; <" CCP3AS equ 0F5Bh ;# ">
+"2479
+[; <" PWM3CON equ 0F5Ch ;# ">
+"2549
+[; <" CCP3CON equ 0F5Dh ;# ">
+"2631
+[; <" CCPR3 equ 0F5Eh ;# ">
+"2638
+[; <" CCPR3L equ 0F5Eh ;# ">
+"2658
+[; <" CCPR3H equ 0F5Fh ;# ">
+"2678
+[; <" SLRCON equ 0F60h ;# ">
+"2722
+[; <" WPUB equ 0F61h ;# ">
+"2784
+[; <" IOCB equ 0F62h ;# ">
+"2823
+[; <" PSTR2CON equ 0F63h ;# ">
+"2963
+[; <" ECCP2AS equ 0F64h ;# ">
+"2968
+[; <" CCP2AS equ 0F64h ;# ">
+"3205
+[; <" PWM2CON equ 0F65h ;# ">
+"3275
+[; <" CCP2CON equ 0F66h ;# ">
+"3357
+[; <" CCPR2 equ 0F67h ;# ">
+"3364
+[; <" CCPR2L equ 0F67h ;# ">
+"3384
+[; <" CCPR2H equ 0F68h ;# ">
+"3404
+[; <" SSP2CON3 equ 0F69h ;# ">
+"3466
+[; <" SSP2MSK equ 0F6Ah ;# ">
+"3536
+[; <" SSP2CON2 equ 0F6Bh ;# ">
+"3681
+[; <" SSP2CON1 equ 0F6Ch ;# ">
+"3801
+[; <" SSP2STAT equ 0F6Dh ;# ">
+"4201
+[; <" SSP2ADD equ 0F6Eh ;# ">
+"4271
+[; <" SSP2BUF equ 0F6Fh ;# ">
+"4291
+[; <" BAUDCON2 equ 0F70h ;# ">
+"4296
+[; <" BAUD2CON equ 0F70h ;# ">
+"4553
+[; <" RCSTA2 equ 0F71h ;# ">
+"4558
+[; <" RC2STA equ 0F71h ;# ">
+"4841
+[; <" TXSTA2 equ 0F72h ;# ">
+"4846
+[; <" TX2STA equ 0F72h ;# ">
+"5093
+[; <" TXREG2 equ 0F73h ;# ">
+"5098
+[; <" TX2REG equ 0F73h ;# ">
+"5131
+[; <" RCREG2 equ 0F74h ;# ">
+"5136
+[; <" RC2REG equ 0F74h ;# ">
+"5169
+[; <" SPBRG2 equ 0F75h ;# ">
+"5174
+[; <" SP2BRG equ 0F75h ;# ">
+"5207
+[; <" SPBRGH2 equ 0F76h ;# ">
+"5212
+[; <" SP2BRGH equ 0F76h ;# ">
+"5245
+[; <" CM2CON1 equ 0F77h ;# ">
+"5250
+[; <" CM12CON equ 0F77h ;# ">
+"5367
+[; <" CM2CON0 equ 0F78h ;# ">
+"5372
+[; <" CM2CON equ 0F78h ;# ">
+"5647
+[; <" CM1CON0 equ 0F79h ;# ">
+"5652
+[; <" CM1CON equ 0F79h ;# ">
+"6069
+[; <" PIE4 equ 0F7Ah ;# ">
+"6101
+[; <" PIR4 equ 0F7Bh ;# ">
+"6133
+[; <" IPR4 equ 0F7Ch ;# ">
+"6173
+[; <" PIE5 equ 0F7Dh ;# ">
+"6205
+[; <" PIR5 equ 0F7Eh ;# ">
+"6237
+[; <" IPR5 equ 0F7Fh ;# ">
+"6283
+[; <" PORTA equ 0F80h ;# ">
+"6568
+[; <" PORTB equ 0F81h ;# ">
+"6838
+[; <" PORTC equ 0F82h ;# ">
+"7145
+[; <" PORTD equ 0F83h ;# ">
+"7388
+[; <" PORTE equ 0F84h ;# ">
+"7563
+[; <" LATA equ 0F89h ;# ">
+"7675
+[; <" LATB equ 0F8Ah ;# ">
+"7787
+[; <" LATC equ 0F8Bh ;# ">
+"7899
+[; <" LATD equ 0F8Ch ;# ">
+"8011
+[; <" LATE equ 0F8Dh ;# ">
+"8063
+[; <" TRISA equ 0F92h ;# ">
+"8068
+[; <" DDRA equ 0F92h ;# ">
+"8285
+[; <" TRISB equ 0F93h ;# ">
+"8290
+[; <" DDRB equ 0F93h ;# ">
+"8507
+[; <" TRISC equ 0F94h ;# ">
+"8512
+[; <" DDRC equ 0F94h ;# ">
+"8729
+[; <" TRISD equ 0F95h ;# ">
+"8734
+[; <" DDRD equ 0F95h ;# ">
+"8951
+[; <" TRISE equ 0F96h ;# ">
+"8956
+[; <" DDRE equ 0F96h ;# ">
+"9067
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"9137
+[; <" HLVDCON equ 0F9Ch ;# ">
+"9142
+[; <" LVDCON equ 0F9Ch ;# ">
+"9417
+[; <" PIE1 equ 0F9Dh ;# ">
+"9494
+[; <" PIR1 equ 0F9Eh ;# ">
+"9571
+[; <" IPR1 equ 0F9Fh ;# ">
+"9648
+[; <" PIE2 equ 0FA0h ;# ">
+"9734
+[; <" PIR2 equ 0FA1h ;# ">
+"9820
+[; <" IPR2 equ 0FA2h ;# ">
+"9906
+[; <" PIE3 equ 0FA3h ;# ">
+"10016
+[; <" PIR3 equ 0FA4h ;# ">
+"10094
+[; <" IPR3 equ 0FA5h ;# ">
+"10172
+[; <" EECON1 equ 0FA6h ;# ">
+"10238
+[; <" EECON2 equ 0FA7h ;# ">
+"10258
+[; <" EEDATA equ 0FA8h ;# ">
+"10278
+[; <" EEADR equ 0FA9h ;# ">
+"10348
+[; <" RCSTA1 equ 0FABh ;# ">
+"10353
+[; <" RCSTA equ 0FABh ;# ">
+"10357
+[; <" RC1STA equ 0FABh ;# ">
+"10804
+[; <" TXSTA1 equ 0FACh ;# ">
+"10809
+[; <" TXSTA equ 0FACh ;# ">
+"10813
+[; <" TX1STA equ 0FACh ;# ">
+"11179
+[; <" TXREG1 equ 0FADh ;# ">
+"11184
+[; <" TXREG equ 0FADh ;# ">
+"11188
+[; <" TX1REG equ 0FADh ;# ">
+"11257
+[; <" RCREG1 equ 0FAEh ;# ">
+"11262
+[; <" RCREG equ 0FAEh ;# ">
+"11266
+[; <" RC1REG equ 0FAEh ;# ">
+"11335
+[; <" SPBRG1 equ 0FAFh ;# ">
+"11340
+[; <" SPBRG equ 0FAFh ;# ">
+"11344
+[; <" SP1BRG equ 0FAFh ;# ">
+"11413
+[; <" SPBRGH1 equ 0FB0h ;# ">
+"11418
+[; <" SPBRGH equ 0FB0h ;# ">
+"11422
+[; <" SP1BRGH equ 0FB0h ;# ">
+"11491
+[; <" T3CON equ 0FB1h ;# ">
+"11599
+[; <" TMR3 equ 0FB2h ;# ">
+"11606
+[; <" TMR3L equ 0FB2h ;# ">
+"11626
+[; <" TMR3H equ 0FB3h ;# ">
+"11646
+[; <" T3GCON equ 0FB4h ;# ">
+"11741
+[; <" ECCP1AS equ 0FB6h ;# ">
+"11746
+[; <" ECCPAS equ 0FB6h ;# ">
+"12123
+[; <" PWM1CON equ 0FB7h ;# ">
+"12128
+[; <" PWMCON equ 0FB7h ;# ">
+"12377
+[; <" BAUDCON1 equ 0FB8h ;# ">
+"12382
+[; <" BAUDCON equ 0FB8h ;# ">
+"12386
+[; <" BAUDCTL equ 0FB8h ;# ">
+"12390
+[; <" BAUD1CON equ 0FB8h ;# ">
+"13051
+[; <" PSTR1CON equ 0FB9h ;# ">
+"13056
+[; <" PSTRCON equ 0FB9h ;# ">
+"13201
+[; <" T2CON equ 0FBAh ;# ">
+"13272
+[; <" PR2 equ 0FBBh ;# ">
+"13292
+[; <" TMR2 equ 0FBCh ;# ">
+"13312
+[; <" CCP1CON equ 0FBDh ;# ">
+"13394
+[; <" CCPR1 equ 0FBEh ;# ">
+"13401
+[; <" CCPR1L equ 0FBEh ;# ">
+"13421
+[; <" CCPR1H equ 0FBFh ;# ">
+"13441
+[; <" ADCON2 equ 0FC0h ;# ">
+"13512
+[; <" ADCON1 equ 0FC1h ;# ">
+"13580
+[; <" ADCON0 equ 0FC2h ;# ">
+"13705
+[; <" ADRES equ 0FC3h ;# ">
+"13712
+[; <" ADRESL equ 0FC3h ;# ">
+"13732
+[; <" ADRESH equ 0FC4h ;# ">
+"13752
+[; <" SSP1CON2 equ 0FC5h ;# ">
+"13757
+[; <" SSPCON2 equ 0FC5h ;# ">
+"14106
+[; <" SSP1CON1 equ 0FC6h ;# ">
+"14111
+[; <" SSPCON1 equ 0FC6h ;# ">
+"14344
+[; <" SSP1STAT equ 0FC7h ;# ">
+"14349
+[; <" SSPSTAT equ 0FC7h ;# ">
+"14974
+[; <" SSP1ADD equ 0FC8h ;# ">
+"14979
+[; <" SSPADD equ 0FC8h ;# ">
+"15228
+[; <" SSP1BUF equ 0FC9h ;# ">
+"15233
+[; <" SSPBUF equ 0FC9h ;# ">
+"15282
+[; <" SSP1MSK equ 0FCAh ;# ">
+"15287
+[; <" SSPMSK equ 0FCAh ;# ">
+"15420
+[; <" SSP1CON3 equ 0FCBh ;# ">
+"15425
+[; <" SSPCON3 equ 0FCBh ;# ">
+"15542
+[; <" T1GCON equ 0FCCh ;# ">
+"15637
+[; <" T1CON equ 0FCDh ;# ">
+"15750
+[; <" TMR1 equ 0FCEh ;# ">
+"15757
+[; <" TMR1L equ 0FCEh ;# ">
+"15777
+[; <" TMR1H equ 0FCFh ;# ">
+"15797
+[; <" RCON equ 0FD0h ;# ">
+"15930
+[; <" WDTCON equ 0FD1h ;# ">
+"15958
+[; <" OSCCON2 equ 0FD2h ;# ">
+"16015
+[; <" OSCCON equ 0FD3h ;# ">
+"16098
+[; <" T0CON equ 0FD5h ;# ">
+"16168
+[; <" TMR0 equ 0FD6h ;# ">
+"16175
+[; <" TMR0L equ 0FD6h ;# ">
+"16195
+[; <" TMR0H equ 0FD7h ;# ">
+"16215
+[; <" STATUS equ 0FD8h ;# ">
+"16286
+[; <" FSR2 equ 0FD9h ;# ">
+"16293
+[; <" FSR2L equ 0FD9h ;# ">
+"16313
+[; <" FSR2H equ 0FDAh ;# ">
+"16320
+[; <" PLUSW2 equ 0FDBh ;# ">
+"16340
+[; <" PREINC2 equ 0FDCh ;# ">
+"16360
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"16380
+[; <" POSTINC2 equ 0FDEh ;# ">
+"16400
+[; <" INDF2 equ 0FDFh ;# ">
+"16420
+[; <" BSR equ 0FE0h ;# ">
+"16427
+[; <" FSR1 equ 0FE1h ;# ">
+"16434
+[; <" FSR1L equ 0FE1h ;# ">
+"16454
+[; <" FSR1H equ 0FE2h ;# ">
+"16461
+[; <" PLUSW1 equ 0FE3h ;# ">
+"16481
+[; <" PREINC1 equ 0FE4h ;# ">
+"16501
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"16521
+[; <" POSTINC1 equ 0FE6h ;# ">
+"16541
+[; <" INDF1 equ 0FE7h ;# ">
+"16561
+[; <" WREG equ 0FE8h ;# ">
+"16599
+[; <" FSR0 equ 0FE9h ;# ">
+"16606
+[; <" FSR0L equ 0FE9h ;# ">
+"16626
+[; <" FSR0H equ 0FEAh ;# ">
+"16633
+[; <" PLUSW0 equ 0FEBh ;# ">
+"16653
+[; <" PREINC0 equ 0FECh ;# ">
+"16673
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"16693
+[; <" POSTINC0 equ 0FEEh ;# ">
+"16713
+[; <" INDF0 equ 0FEFh ;# ">
+"16733
+[; <" INTCON3 equ 0FF0h ;# ">
+"16825
+[; <" INTCON2 equ 0FF1h ;# ">
+"16895
+[; <" INTCON equ 0FF2h ;# ">
+"17012
+[; <" PROD equ 0FF3h ;# ">
+"17019
+[; <" PRODL equ 0FF3h ;# ">
+"17039
+[; <" PRODH equ 0FF4h ;# ">
+"17059
+[; <" TABLAT equ 0FF5h ;# ">
+"17081
+[; <" TBLPTR equ 0FF6h ;# ">
+"17088
+[; <" TBLPTRL equ 0FF6h ;# ">
+"17108
+[; <" TBLPTRH equ 0FF7h ;# ">
+"17128
+[; <" TBLPTRU equ 0FF8h ;# ">
+"17159
+[; <" PCLAT equ 0FF9h ;# ">
+"17166
+[; <" PC equ 0FF9h ;# ">
+"17173
+[; <" PCL equ 0FF9h ;# ">
+"17193
+[; <" PCLATH equ 0FFAh ;# ">
+"17213
+[; <" PCLATU equ 0FFBh ;# ">
+"17220
+[; <" STKPTR equ 0FFCh ;# ">
+"17326
+[; <" TOS equ 0FFDh ;# ">
+"17333
+[; <" TOSL equ 0FFDh ;# ">
+"17353
+[; <" TOSH equ 0FFEh ;# ">
+"17373
+[; <" TOSU equ 0FFFh ;# ">
+"2 ../config.h
+[p x FOSC=HSHP ]
+"4
+[p x PLLCFG=OFF ]
+"5
+[p x PRICLKEN=OFF ]
+"6
+[p x FCMEN=OFF ]
+"7
+[p x IESO=OFF ]
+"9
+[p x PWRTEN=OFF ]
+"10
+[p x BOREN=OFF ]
+"11
+[p x BORV=190 ]
+"13
+[p x WDTEN=OFF ]
+"14
+[p x WDTPS=1 ]
+"16
+[p x MCLRE=EXTMCLR ]
+"18
+[p x CCP2MX=PORTC1 ]
+"19
+[p x PBADEN=OFF ]
+"20
+[p x CCP3MX=PORTB5 ]
+"21
+[p x HFOFST=OFF ]
+"22
+[p x T3CMX=PORTB5 ]
+"25
+[p x STVREN=OFF ]
+"26
+[p x LVP=OFF ]
+"27
+[p x XINST=OFF ]
+"29
+[p x CP0=OFF ]
+"30
+[p x CP1=OFF ]
+"31
+[p x CP2=OFF ]
+"32
+[p x CP3=OFF ]
+"34
+[p x CPB=OFF ]
+"35
+[p x CPD=OFF ]
+"37
+[p x WRT0=OFF ]
+"38
+[p x WRT1=OFF ]
+"39
+[p x WRT2=OFF ]
+"40
+[p x WRT3=OFF ]
+"42
+[p x WRTB=OFF ]
+"43
+[p x WRTC=OFF ]
+"44
+[p x WRTD=OFF ]
+"46
+[p x EBTR0=OFF ]
+"47
+[p x EBTR1=OFF ]
+"48
+[p x EBTR2=OFF ]
+"49
+[p x EBTR3=OFF ]
+"51
+[p x EBTRB=OFF ]
+"1 ../splash.h
+[v _bitmap `Cuc ~T0 @X0 -> 1024 `i e ]
+[i _bitmap
+:U ..
+"3
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"4
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 60 `i `uc
+-> -> 60 `i `uc
+-> -> 252 `i `uc
+-> -> 224 `i `uc
+-> -> 192 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"5
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"6
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 7 `i `uc
+-> -> 3 `i `uc
+-> -> 113 `i `uc
+-> -> 240 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 113 `i `uc
+-> -> 3 `i `uc
+-> -> 7 `i `uc
+"7
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"8
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 140 `i `uc
+-> -> 142 `i `uc
+-> -> 142 `i `uc
+-> -> 142 `i `uc
+"9
+-> -> 142 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 252 `i `uc
+-> -> 240 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+"10
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"11
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"12
+-> -> 224 `i `uc
+-> -> 14 `i `uc
+-> -> 14 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 62 `i `uc
+-> -> 62 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 62 `i `uc
+-> -> 62 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"13
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"14
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 31 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 28 `i `uc
+-> -> 28 `i `uc
+-> -> 31 `i `uc
+"15
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"16
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 131 `i `uc
+"17
+-> -> 131 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 128 `i `uc
+"18
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"19
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"20
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"21
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"22
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 14 `i `uc
+-> -> 6 `i `uc
+-> -> 198 `i `uc
+-> -> 198 `i `uc
+-> -> 134 `i `uc
+-> -> 6 `i `uc
+-> -> 30 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+-> -> 254 `i `uc
+"23
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"24
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 131 `i `uc
+-> -> 131 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 99 `i `uc
+"25
+-> -> 99 `i `uc
+-> -> 99 `i `uc
+-> -> 99 `i `uc
+-> -> 99 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 159 `i `uc
+-> -> 159 `i `uc
+-> -> 159 `i `uc
+-> -> 255 `i `uc
+"26
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"27
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"28
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 128 `i `uc
+-> -> 159 `i `uc
+-> -> 159 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"29
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"30
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+"31
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 96 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+"32
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 240 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 240 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+"33
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 128 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 247 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 255 `i `uc
+"34
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"35
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 192 `i `uc
+-> -> 224 `i `uc
+"36
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 55 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 192 `i `uc
+-> -> 128 `i `uc
+"37
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"38
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+-> -> 195 `i `uc
+"39
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"40
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 227 `i `uc
+-> -> 227 `i `uc
+-> -> 231 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+"41
+-> -> 255 `i `uc
+-> -> 63 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 31 `i `uc
+"42
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"43
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 30 `i `uc
+-> -> 30 `i `uc
+-> -> 225 `i `uc
+-> -> 243 `i `uc
+"44
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 7 `i `uc
+-> -> 15 `i `uc
+"45
+-> -> 254 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"46
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 6 `i `uc
+-> -> 6 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+"47
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"48
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+"49
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 248 `i `uc
+"50
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"51
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 254 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+"52
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"53
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"54
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 97 `i `uc
+-> -> 97 `i `uc
+-> -> 97 `i `uc
+-> -> 96 `i `uc
+-> -> 96 `i `uc
+-> -> 97 `i `uc
+-> -> 97 `i `uc
+-> -> 225 `i `uc
+-> -> 224 `i `uc
+-> -> 224 `i `uc
+"55
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+"56
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 63 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"57
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 0 `i `uc
+"58
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 24 `i `uc
+-> -> 56 `i `uc
+-> -> 24 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"59
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+"60
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 25 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"61
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"62
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 248 `i `uc
+-> -> 152 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 0 `i `uc
+-> -> 195 `i `uc
+"63
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"64
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"65
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 24 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 192 `i `uc
+-> -> 56 `i `uc
+"66
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 7 `i `uc
+-> -> 7 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+"67
+-> -> 0 `i `uc
+..
+]
+"19 ../main.c
+[v _UP `uc ~T0 @X0 1 e ]
+[i _UP
+-> -> 0 `i `uc
+]
+[v _DOWN `uc ~T0 @X0 1 e ]
+[i _DOWN
+-> -> 0 `i `uc
+]
+[v _RIGHT `uc ~T0 @X0 1 e ]
+[i _RIGHT
+-> -> 0 `i `uc
+]
+[v _LEFT `uc ~T0 @X0 1 e ]
+[i _LEFT
+-> -> 0 `i `uc
+]
+"21
+[v _flag_up `uc ~T0 @X0 1 e ]
+[i _flag_up
+-> -> 0 `i `uc
+]
+[v _flag_down `uc ~T0 @X0 1 e ]
+[i _flag_down
+-> -> 0 `i `uc
+]
+[v _flag_right `uc ~T0 @X0 1 e ]
+[i _flag_right
+-> -> 0 `i `uc
+]
+[v _flag_left `uc ~T0 @X0 1 e ]
+[i _flag_left
+-> -> 0 `i `uc
+]
+"23
+[v _minuts `uc ~T0 @X0 1 e ]
+[i _minuts
+-> -> 0 `i `uc
+]
+[v _segons `uc ~T0 @X0 1 e ]
+[i _segons
+-> -> 0 `i `uc
+]
+[v _decimes `uc ~T0 @X0 1 e ]
+[i _decimes
+-> -> 0 `i `uc
+]
+"25
+[v _vides `i ~T0 @X0 1 e ]
+[i _vides
+-> 3 `i
+]
+"26
+[v _nivell `i ~T0 @X0 1 e ]
+[i _nivell
+-> 1 `i
+]
+"29
+[v _n1 `uc ~T0 @X0 1 e ]
+[i _n1
+-> -> 0 `i `uc
+]
+[v _n2 `uc ~T0 @X0 1 e ]
+[i _n2
+-> -> 0 `i `uc
+]
+[v _n3 `uc ~T0 @X0 1 e ]
+[i _n3
+-> -> 0 `i `uc
+]
+[v _n4 `uc ~T0 @X0 1 e ]
+[i _n4
+-> -> 0 `i `uc
+]
+[v _n_ant `uc ~T0 @X0 1 e ]
+[i _n_ant
+-> -> 0 `i `uc
+]
+[v _flag_ant `uc ~T0 @X0 1 e ]
+[i _flag_ant
+-> -> 0 `i `uc
+]
+"32
+[v _playing `i ~T0 @X0 1 e ]
+[i _playing
+-> 0 `i
+]
+"35
+[v _pos_nau `i ~T0 @X0 1 e ]
+[i _pos_nau
+-> 5 `i
+]
+"36
+[v _pos2_nau `i ~T0 @X0 1 e ]
+[i _pos2_nau
+-> 7 `i
+]
+"39
+[v _te_benzina `uc ~T0 @X0 1 e ]
+[i _te_benzina
+-> -> 0 `i `uc
+]
+"42
+[v _xbenzina `i ~T0 @X0 1 e ]
+[i _xbenzina
+-> 5 `i
+]
+"43
+[v _ybenzina `i ~T0 @X0 1 e ]
+[i _ybenzina
+-> 20 `i
+]
+"46
+[v _xbase `i ~T0 @X0 1 e ]
+[i _xbase
+-> 7 `i
+]
+"47
+[v _ybase `i ~T0 @X0 1 e ]
+[i _ybase
+-> 20 `i
+]
+"50
+[v _xocat `i ~T0 @X0 1 e ]
+[i _xocat
+-> 0 `i
+]
+"53
+[v _enemic1 `uc ~T0 @X0 1 e ]
+[i _enemic1
+-> -> 0 `i `uc
+]
+[v _enemic2 `uc ~T0 @X0 1 e ]
+[i _enemic2
+-> -> 0 `i `uc
+]
+[v _enemic3 `uc ~T0 @X0 1 e ]
+[i _enemic3
+-> -> 0 `i `uc
+]
+"56
+[v _x1enemic `i ~T0 @X0 1 e ]
+[i _x1enemic
+-> 1 `i
+]
+"57
+[v _y1enemic `i ~T0 @X0 1 e ]
+[i _y1enemic
+-> 0 `i
+]
+"59
+[v _x2enemic `i ~T0 @X0 1 e ]
+[i _x2enemic
+-> 3 `i
+]
+"60
+[v _y2enemic `i ~T0 @X0 1 e ]
+[i _y2enemic
+-> 0 `i
+]
+"62
+[v _x3enemic `i ~T0 @X0 1 e ]
+[i _x3enemic
+-> 2 `i
+]
+"63
+[v _y3enemic `i ~T0 @X0 1 e ]
+[i _y3enemic
+-> 20 `i
+]
+"66
+[v _x1 `i ~T0 @X0 1 e ]
+[v _x2 `i ~T0 @X0 1 e ]
+[v _x3 `i ~T0 @X0 1 e ]
+[v _y1 `i ~T0 @X0 1 e ]
+[v _y2 `i ~T0 @X0 1 e ]
+[v _y3 `i ~T0 @X0 1 e ]
+"69
+[v _carrega `i ~T0 @X0 1 e ]
+[i _carrega
+-> 48 `i
+]
+"71
+[v _punts `i ~T0 @X0 1 e ]
+[i _punts
+-> 0 `i
+]
+"73
+[v _roda `i ~T0 @X0 1 e ]
+[i _roda
+-> 0 `i
+]
+"76
+[v _flag_fi `uc ~T0 @X0 1 e ]
+[i _flag_fi
+-> -> 0 `i `uc
+]
+"78
+[v _duty_anterior `i ~T0 @X0 1 e ]
+[i _duty_anterior
+-> 48 `i
+]
+"81
+[v _space `Cuc ~T0 @X0 1 e ]
+[i _space
+-> -> 32 `ui `uc
+]
+"82
+[v _cor `Cuc ~T0 @X0 1 e ]
+[i _cor
+-> -> 34 `ui `uc
+]
+"83
+[v _nau `Cuc ~T0 @X0 1 e ]
+[i _nau
+-> -> 35 `ui `uc
+]
+"84
+[v _base `Cuc ~T0 @X0 1 e ]
+[i _base
+-> -> 36 `ui `uc
+]
+"85
+[v _benzina `Cuc ~T0 @X0 1 e ]
+[i _benzina
+-> -> 37 `ui `uc
+]
+"86
+[v _enemic `Cuc ~T0 @X0 1 e ]
+[i _enemic
+-> -> 38 `ui `uc
+]
+"89
+[v _comand `uc ~T0 @X0 1 e ]
+"93
+[v _writeTxt `(v ~T0 @X0 1 ef3`uc`uc`*uc ]
+{
+[e :U _writeTxt ]
+[v _page `uc ~T0 @X0 1 r1 ]
+[v _y `uc ~T0 @X0 1 r2 ]
+[v _s `*uc ~T0 @X0 1 r3 ]
+[f ]
+"94
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+"95
+[e $U 851  ]
+[e :U 852 ]
+{
+"96
+[e ( _putchGLCD (3 , , _page -> + -> _y `i _i `uc *U ++ _s * -> -> 1 `i `x -> -> # *U _s `i `x ]
+"97
+[e =+ _i -> 1 `i ]
+"98
+}
+[e :U 851 ]
+"95
+[e $ && != -> *U _s `ui -> 10 `ui != -> *U _s `ui -> 0 `ui 852  ]
+[e :U 853 ]
+"99
+[e :UE 850 ]
+}
+"103
+[v _Config_PIC_Global `(v ~T0 @X0 1 ef ]
+{
+[e :U _Config_PIC_Global ]
+[f ]
+"106
+[e = _ANSELA -> -> 1 `i `uc ]
+"107
+[e = _ANSELB -> -> 0 `i `uc ]
+"108
+[e = _ANSELC -> -> 0 `i `uc ]
+"109
+[e = _ANSELD -> -> 0 `i `uc ]
+"111
+[e = _PORTA -> -> 0 `i `uc ]
+"112
+[e = _PORTB -> -> 0 `i `uc ]
+"113
+[e = _PORTD -> -> 0 `i `uc ]
+"115
+[e = _TRISA -> -> 255 `i `uc ]
+"116
+[e = _TRISB -> -> 0 `i `uc ]
+"117
+[e = _TRISD -> -> 0 `i `uc ]
+"118
+[e = _TRISC -> -> 196 `i `uc ]
+"119
+[e = . . _TRISCbits 1 2 -> -> 1 `i `uc ]
+"122
+[e = _INTCON -> -> 160 `i `uc ]
+"123
+[e = _RCON -> -> 128 `i `uc ]
+"125
+[e = _T0CON -> -> 129 `i `uc ]
+"126
+[e = _TMR0H -> -> 60 `i `uc ]
+"127
+[e = _TMR0L -> -> 176 `i `uc ]
+"128
+[e = _INTCON2 -> -> 4 `i `uc ]
+"132
+[e = . . _TRISCbits 1 2 -> -> 0 `i `uc ]
+"134
+[e = . . _PIE1bits 0 1 -> -> 1 `i `uc ]
+"135
+[e = . . _T2CONbits 1 1 -> -> 1 `i `uc ]
+"136
+[e = _PR2 -> -> 124 `i `uc ]
+"138
+[e = . . _CCP1CONbits 1 3 -> -> 1 `i `uc ]
+"139
+[e = . . _CCP1CONbits 1 2 -> -> 1 `i `uc ]
+"140
+[e = _CCPR1L -> -> 0 `i `uc ]
+"141
+[e = . . _CCP1CONbits 1 5 -> -> 0 `i `uc ]
+"142
+[e = . . _CCP1CONbits 1 4 -> -> 0 `i `uc ]
+"144
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"147
+[e = . . _OSCCONbits 0 3 -> -> 5 `i `uc ]
+"148
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"149
+[e = . . _TRISCbits 0 6 -> -> 1 `i `uc ]
+"151
+[e = _SPBRG1 -> -> 16 `i `uc ]
+"152
+[e = _SPBRGH1 -> -> 0 `i `uc ]
+"154
+[e = . . _TXSTA1bits 0 2 -> -> 1 `i `uc ]
+"155
+[e = . . _BAUDCON1bits 0 3 -> -> 1 `i `uc ]
+"156
+[e = . . _RCSTA1bits 0 7 -> -> 1 `i `uc ]
+"157
+[e = . . _RCSTA1bits 2 4 -> -> 1 `i `uc ]
+"158
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"161
+[e = . . _ADCON0bits 1 2 -> -> 0 `i `uc ]
+"162
+[e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
+"164
+[e = . . _ADCON1bits 0 3 -> -> 0 `i `uc ]
+"165
+[e = . . _ADCON1bits 0 1 -> -> 0 `i `uc ]
+"166
+[e = . . _ADCON1bits 0 0 -> -> 0 `i `uc ]
+"168
+[e = . . _ADCON2bits 0 3 -> -> 1 `i `uc ]
+"169
+[e = . . _ADCON2bits 0 1 -> -> 1 `i `uc ]
+"170
+[e = . . _ADCON2bits 0 0 -> -> 1 `i `uc ]
+"171
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
+"174
+[e ( _GLCDinit ..  ]
+"175
+[e ( _clearGLCD (4 , , , -> -> 0 `i `uc -> -> 7 `i `uc -> -> 0 `i `uc -> -> 127 `i `uc ]
+"176
+[e ( _setStartLine (1 -> -> 0 `i `uc ]
+"177
+[e :UE 854 ]
+}
+"180
+[v _splash `(v ~T0 @X0 1 ef ]
+{
+[e :U _splash ]
+[f ]
+"181
+[v _p `i ~T0 @X0 1 a ]
+[e = _p -> 0 `i ]
+"182
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 8 `i 856  ]
+[e $U 857  ]
+[e :U 856 ]
+{
+"183
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 0 `i ]
+[e $ < _j -> 128 `i 859  ]
+[e $U 860  ]
+[e :U 859 ]
+{
+"184
+[v _pixel `i ~T0 @X0 1 a ]
+[e = _pixel -> *U + &U _bitmap * -> -> _p `ui `ux -> -> # *U &U _bitmap `ui `ux `i ]
+"186
+[e ( _writeByte (3 , , -> _i `uc -> _j `uc -> _pixel `uc ]
+"187
+[e =+ _p -> 1 `i ]
+"188
+}
+"183
+[e =+ _j -> 1 `i ]
+[e $ < _j -> 128 `i 859  ]
+[e :U 860 ]
+"188
+}
+"189
+}
+"182
+[e =+ _i -> 1 `i ]
+[e $ < _i -> 8 `i 856  ]
+[e :U 857 ]
+"189
+}
+"190
+[e :UE 855 ]
+}
+"195
+[v _putc_usart1 `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _putc_usart1 ]
+[v _xc `uc ~T0 @X0 1 r1 ]
+[f ]
+"196
+[e $U 863  ]
+[e :U 864 ]
+[e :U 863 ]
+[e $ ! != -> . . _PIR1bits 0 4 `i -> -> -> 0 `i `Vuc `i 864  ]
+[e :U 865 ]
+"197
+[e = _TXREG1 _xc ]
+"198
+[e :UE 862 ]
+}
+"200
+[v _puts_usart1 `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _puts_usart1 ]
+[v _cptr `*uc ~T0 @X0 1 r1 ]
+[f ]
+"201
+[e $U 867  ]
+[e :U 868 ]
+{
+"202
+[e ( _putc_usart1 (1 *U ++ _cptr * -> -> 1 `i `x -> -> # *U _cptr `i `x ]
+"203
+}
+[e :U 867 ]
+"201
+[e $ && != -> *U _cptr `ui -> 10 `ui != -> *U _cptr `ui -> 0 `ui 868  ]
+[e :U 869 ]
+"204
+[e :UE 866 ]
+}
+"209
+[v _tictac `(v ~T0 @X0 1 ef ]
+{
+[e :U _tictac ]
+[f ]
+"211
+[e $ ! == -> _minuts `i -> 0 `i 871  ]
+{
+"212
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 118 `i `uc -> -> 48 `ui `uc ]
+"213
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 119 `i `uc -> -> 48 `ui `uc ]
+"214
+}
+[e $U 872  ]
+"215
+[e :U 871 ]
+[e $ ! < -> _minuts `i -> 10 `i 873  ]
+{
+"216
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 118 `i `uc -> -> 48 `ui `uc ]
+"217
+[e ( _writeNum (3 , , -> -> 0 `i `uc -> -> 119 `i `uc -> _minuts `i ]
+"218
+}
+[e $U 874  ]
+"219
+[e :U 873 ]
+{
+"220
+[e ( _writeNum (3 , , -> -> 0 `i `uc -> -> 118 `i `uc -> _minuts `i ]
+"221
+}
+[e :U 874 ]
+[e :U 872 ]
+"222
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 120 `i `uc -> -> 58 `ui `uc ]
+"224
+[e $ ! == -> _segons `i -> 0 `i 875  ]
+{
+"225
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 121 `i `uc -> -> 48 `ui `uc ]
+"226
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 122 `i `uc -> -> 48 `ui `uc ]
+"227
+}
+[e $U 876  ]
+"228
+[e :U 875 ]
+[e $ ! < -> _segons `i -> 10 `i 877  ]
+{
+"229
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 121 `i `uc -> -> 48 `ui `uc ]
+"230
+[e ( _writeNum (3 , , -> -> 0 `i `uc -> -> 122 `i `uc -> _segons `i ]
+"231
+}
+[e $U 878  ]
+"232
+[e :U 877 ]
+{
+"233
+[e ( _writeNum (3 , , -> -> 0 `i `uc -> -> 121 `i `uc -> _segons `i ]
+"234
+}
+[e :U 878 ]
+[e :U 876 ]
+"235
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 123 `i `uc -> -> 58 `ui `uc ]
+"237
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 125 `i `uc -> -> 48 `ui `uc ]
+"238
+[e ( _writeNum (3 , , -> -> 0 `i `uc -> -> 124 `i `uc -> _decimes `i ]
+"239
+[e :UE 870 ]
+}
+"242
+[v _update_cronometre `(v ~T0 @X0 1 ef ]
+{
+[e :U _update_cronometre ]
+[f ]
+"243
+[e ( _tictac ..  ]
+"245
+[e =% _roda -> -> 4 `uc `i ]
+"246
+[e $ ! == _roda -> 1 `i 880  ]
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 127 `i `uc -> -> 47 `ui `uc ]
+[e $U 881  ]
+"247
+[e :U 880 ]
+[e $ ! == _roda -> 2 `i 882  ]
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 127 `i `uc -> -> 124 `ui `uc ]
+[e $U 883  ]
+"248
+[e :U 882 ]
+[e $ ! == _roda -> 3 `i 884  ]
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 127 `i `uc -> -> 92 `i `uc ]
+[e $U 885  ]
+"249
+[e :U 884 ]
+[e $ ! == _roda -> 4 `i 886  ]
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 127 `i `uc -> -> 45 `ui `uc ]
+[e :U 886 ]
+"250
+[e :U 885 ]
+[e :U 883 ]
+[e :U 881 ]
+[e :UE 879 ]
+}
+"254
+[v _actualitza_barra `(v ~T0 @X0 1 ef ]
+{
+[e :U _actualitza_barra ]
+[f ]
+"255
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 48 `i ]
+[e $U 891  ]
+[e :U 888 ]
+{
+"256
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 113 `i ]
+[e $ < _j -> 118 `i 892  ]
+[e $U 893  ]
+[e :U 892 ]
+{
+"257
+[e ( _SetDot (2 , -> _i `uc -> _j `uc ]
+"258
+}
+"256
+[e =+ _j -> 1 `i ]
+[e $ < _j -> 118 `i 892  ]
+[e :U 893 ]
+"258
+}
+"259
+}
+"255
+[e =- _i -> 1 `i ]
+[e :U 891 ]
+[e $ > _i _carrega 888  ]
+[e :U 889 ]
+"259
+}
+"260
+[e $ ! <= _carrega -> 22 `i 895  ]
+[e = _flag_fi -> -> 1 `i `uc ]
+[e :U 895 ]
+"261
+[e :UE 887 ]
+}
+"263
+[v _rectangle `(v ~T0 @X0 1 ef ]
+{
+[e :U _rectangle ]
+[f ]
+"265
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 111 `i ]
+[e $ < _i -> 119 `i 897  ]
+[e $U 898  ]
+[e :U 897 ]
+{
+"266
+[e ( _SetDot (2 , -> -> 20 `i `uc -> _i `uc ]
+"267
+[e ( _SetDot (2 , -> -> 50 `i `uc -> _i `uc ]
+"268
+}
+"265
+[e =+ _i -> 1 `i ]
+[e $ < _i -> 119 `i 897  ]
+[e :U 898 ]
+"268
+}
+"270
+{
+[v _j `i ~T0 @X0 1 a ]
+[e = _j -> 20 `i ]
+[e $ < _j -> 51 `i 900  ]
+[e $U 901  ]
+[e :U 900 ]
+{
+"271
+[e ( _SetDot (2 , -> _j `uc -> -> 119 `i `uc ]
+"272
+[e ( _SetDot (2 , -> _j `uc -> -> 111 `i `uc ]
+"273
+}
+"270
+[e =+ _j -> 1 `i ]
+[e $ < _j -> 51 `i 900  ]
+[e :U 901 ]
+"273
+}
+"274
+[e :UE 896 ]
+}
+"278
+[v _update_vides `(v ~T0 @X0 1 ef ]
+{
+[e :U _update_vides ]
+[f ]
+"279
+[e $ ! == _vides -> 3 `i 904  ]
+{
+"280
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc _cor ]
+"281
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 2 `i `uc _cor ]
+"282
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 4 `i `uc _cor ]
+"283
+}
+[e $U 905  ]
+"284
+[e :U 904 ]
+[e $ ! == _vides -> 2 `i 906  ]
+{
+"285
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc _cor ]
+"286
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 2 `i `uc _cor ]
+"287
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 4 `i `uc _space ]
+"288
+}
+[e $U 907  ]
+"289
+[e :U 906 ]
+[e $ ! == _vides -> 1 `i 908  ]
+{
+"290
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc _cor ]
+"291
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 2 `i `uc _space ]
+"292
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 4 `i `uc _space ]
+"293
+}
+[e $U 909  ]
+"294
+[e :U 908 ]
+[e $ ! == _vides -> 0 `i 910  ]
+{
+"295
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc _space ]
+"296
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 2 `i `uc _space ]
+"297
+[e ( _putchGLCD (3 , , -> -> 0 `i `uc -> -> 4 `i `uc _space ]
+"298
+}
+[e :U 910 ]
+"299
+[e :U 909 ]
+[e :U 907 ]
+[e :U 905 ]
+[e :UE 903 ]
+}
+"301
+[v _aleatori `(v ~T0 @X0 1 ef ]
+{
+[e :U _aleatori ]
+[f ]
+"302
+[e = _xbenzina % ( _rand ..  -> 7 `i ]
+"303
+[e = _ybenzina % ( _rand ..  -> 20 `i ]
+"304
+[e $ ! == _xbenzina -> 0 `i 912  ]
+[e =+ _xbenzina -> 1 `i ]
+[e :U 912 ]
+"305
+[e :UE 911 ]
+}
+"306
+[v _random `(v ~T0 @X0 1 ef ]
+{
+[e :U _random ]
+[f ]
+"307
+[e $ ! != -> _enemic1 `i -> -> -> 0 `i `uc `i 914  ]
+{
+"308
+[e = _x1enemic % ( _rand ..  -> 7 `i ]
+"309
+[e = _y1enemic % ( _rand ..  -> 20 `i ]
+"310
+[e $ ! == _x1enemic -> 0 `i 915  ]
+[e =+ _x1enemic -> 1 `i ]
+[e :U 915 ]
+"311
+[e = _enemic1 -> -> 0 `i `uc ]
+"312
+}
+[e :U 914 ]
+"313
+[e $ ! != -> _enemic2 `i -> -> -> 0 `i `uc `i 916  ]
+{
+"314
+[e = _x2enemic % ( _rand ..  -> 7 `i ]
+"315
+[e = _y2enemic % ( _rand ..  -> 20 `i ]
+"316
+[e $ ! == _x2enemic -> 0 `i 917  ]
+[e =+ _x2enemic -> 1 `i ]
+[e :U 917 ]
+"317
+[e = _enemic2 -> -> 0 `i `uc ]
+"318
+}
+[e :U 916 ]
+"319
+[e $ ! != -> _enemic3 `i -> -> -> 0 `i `uc `i 918  ]
+{
+"320
+[e = _x3enemic % ( _rand ..  -> 7 `i ]
+"321
+[e = _y3enemic % ( _rand ..  -> 20 `i ]
+"322
+[e $ ! == _x3enemic -> 0 `i 919  ]
+[e =+ _x3enemic -> 1 `i ]
+[e :U 919 ]
+"323
+[e = _enemic3 -> -> 0 `i `uc ]
+"324
+}
+[e :U 918 ]
+"325
+[e :UE 913 ]
+}
+"330
+[v _agafa_benzina `(v ~T0 @X0 1 ef ]
+{
+[e :U _agafa_benzina ]
+[f ]
+"331
+[e $ ! && == _pos2_nau _xbenzina == _pos_nau _ybenzina 921  ]
+{
+"332
+[e = _te_benzina -> -> 1 `i `uc ]
+"333
+[e ( _putchGLCD (3 , , -> + _pos2_nau -> 1 `i `uc -> _pos_nau `uc _benzina ]
+"334
+}
+[e :U 921 ]
+"335
+[e :UE 920 ]
+}
+"337
+[v _deixa_benzina `(v ~T0 @X0 1 ef ]
+{
+[e :U _deixa_benzina ]
+[f ]
+"338
+[e $ ! && && != -> _te_benzina `i -> -> -> 0 `i `uc `i == + _pos2_nau -> 1 `i _xbase == _pos_nau _ybase 923  ]
+{
+"339
+[e =- _carrega _nivell ]
+"340
+[e =+ _punts -> 1 `i ]
+"341
+[e ( _actualitza_barra ..  ]
+"342
+[e = _te_benzina -> -> 0 `i `uc ]
+"343
+[e ( _aleatori ..  ]
+"344
+[e ( _putchGLCD (3 , , -> _xbenzina `uc -> _ybenzina `uc _benzina ]
+"345
+[e $ ! ! != -> _flag_ant `i -> -> -> 0 `i `uc `i 924  ]
+{
+"346
+[e = _flag_ant -> -> 1 `i `uc ]
+"347
+[e = _n_ant -> _nivell `uc ]
+"348
+}
+[e :U 924 ]
+"349
+}
+[e $U 925  ]
+"350
+[e :U 923 ]
+[e $ ! ! != -> _te_benzina `i -> -> -> 0 `i `uc `i 926  ]
+[e ( _putchGLCD (3 , , -> _xbenzina `uc -> _ybenzina `uc _benzina ]
+[e :U 926 ]
+"351
+[e :U 925 ]
+[e :UE 922 ]
+}
+"355
+[v _colisio `(v ~T0 @X0 1 ef ]
+{
+[e :U _colisio ]
+[f ]
+"356
+[e $ ! || && == _pos2_nau _x1enemic == _pos_nau _y1enemic && && != -> _te_benzina `i -> -> -> 0 `i `uc `i == + _pos2_nau -> 1 `i _x1enemic == _pos_nau _y1enemic 928  ]
+[e = _enemic1 -> -> 1 `i `uc ]
+[e :U 928 ]
+"357
+[e $ ! || && == _pos2_nau _x2enemic == _pos_nau _y2enemic && && != -> _te_benzina `i -> -> -> 0 `i `uc `i == + _pos2_nau -> 1 `i _x2enemic == _pos_nau _y2enemic 929  ]
+[e = _enemic2 -> -> 1 `i `uc ]
+[e :U 929 ]
+"358
+[e $ ! || && == _pos2_nau _x3enemic == _pos_nau _y3enemic && && != -> _te_benzina `i -> -> -> 0 `i `uc `i == + _pos2_nau -> 1 `i _x3enemic == _pos_nau _y3enemic 930  ]
+[e = _enemic3 -> -> 1 `i `uc ]
+[e :U 930 ]
+"359
+[e $ ! || || != -> _enemic1 `i -> -> -> 0 `i `uc `i != -> _enemic2 `i -> -> -> 0 `i `uc `i != -> _enemic3 `i -> -> -> 0 `i `uc `i 931  ]
+{
+"360
+[e = _xocat -> 1 `i ]
+"362
+[e $ ! != -> _te_benzina `i -> -> -> 0 `i `uc `i 932  ]
+{
+"363
+[e = _te_benzina -> -> 0 `i `uc ]
+"364
+[e ( _aleatori ..  ]
+"365
+[e ( _clearGLCD (4 , , , -> + _pos2_nau -> 1 `i `uc -> + _pos2_nau -> 2 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+"366
+}
+[e :U 932 ]
+"367
+[e =- _vides -> 1 `i ]
+"368
+[e ( _update_vides ..  ]
+"369
+}
+[e :U 931 ]
+"370
+[e :UE 927 ]
+}
+"372
+[v _spawn `(v ~T0 @X0 1 ef ]
+{
+[e :U _spawn ]
+[f ]
+"373
+[e $ ! != _xocat -> 0 `i 934  ]
+{
+"374
+[e = _xocat -> 0 `i ]
+"375
+[e ( _random ..  ]
+"376
+[e $ ! != -> _enemic1 `i -> -> -> 0 `i `uc `i 935  ]
+[e ( _putchGLCD (3 , , -> _x1enemic `uc -> _y1enemic `uc _enemic ]
+[e :U 935 ]
+"377
+[e $ ! != -> _enemic2 `i -> -> -> 0 `i `uc `i 936  ]
+[e ( _putchGLCD (3 , , -> _x2enemic `uc -> _y2enemic `uc _enemic ]
+[e :U 936 ]
+"378
+[e $ ! != -> _enemic3 `i -> -> -> 0 `i `uc `i 937  ]
+[e ( _putchGLCD (3 , , -> _x3enemic `uc -> _y3enemic `uc _enemic ]
+[e :U 937 ]
+"379
+}
+[e $U 938  ]
+"380
+[e :U 934 ]
+[e $ ! ! != _xocat -> 0 `i 939  ]
+{
+"381
+[e ( _putchGLCD (3 , , -> _x1enemic `uc -> _y1enemic `uc _enemic ]
+"382
+[e ( _putchGLCD (3 , , -> _x2enemic `uc -> _y2enemic `uc _enemic ]
+"383
+[e ( _putchGLCD (3 , , -> _x3enemic `uc -> _y3enemic `uc _enemic ]
+"384
+}
+[e :U 939 ]
+"385
+[e :U 938 ]
+[e :UE 933 ]
+}
+"388
+[v _move_enemics `(v ~T0 @X0 1 ef ]
+{
+[e :U _move_enemics ]
+[f ]
+"391
+[e = _x1 _x1enemic ]
+"392
+[e = _y1 _y1enemic ]
+"393
+[e = _x2 _x2enemic ]
+"394
+[e = _y2 _y2enemic ]
+"395
+[e = _x3 _x3enemic ]
+"396
+[e = _y3 _y3enemic ]
+"398
+[e ( _clearGLCD (4 , , , -> _x1enemic `uc -> + _x1enemic -> 1 `i `uc -> * _y1enemic -> 5 `i `uc -> + * _y1enemic -> 5 `i -> 5 `i `uc ]
+"399
+[e ( _clearGLCD (4 , , , -> _x2enemic `uc -> + _x2enemic -> 1 `i `uc -> * _y2enemic -> 5 `i `uc -> + * _y2enemic -> 5 `i -> 5 `i `uc ]
+"400
+[e ( _clearGLCD (4 , , , -> _x3enemic `uc -> + _x3enemic -> 1 `i `uc -> * _y3enemic -> 5 `i `uc -> + * _y3enemic -> 5 `i -> 5 `i `uc ]
+"402
+[e =+ _y1 -> 1 `i ]
+"403
+[e =+ _y2 -> 1 `i ]
+"404
+[e =- _y3 -> 1 `i ]
+"405
+[e ++ _x1 -> 1 `i ]
+"406
+[e ++ _x2 -> 1 `i ]
+"407
+[e ++ _x3 -> 1 `i ]
+"409
+[e $ ! <= _x1 -> 1 `i 941  ]
+[e = _x1 -> 1 `i ]
+[e :U 941 ]
+"410
+[e $ ! <= _x2 -> 1 `i 942  ]
+[e = _x2 -> 1 `i ]
+[e :U 942 ]
+"411
+[e $ ! <= _x3 -> 1 `i 943  ]
+[e = _x3 -> 1 `i ]
+[e :U 943 ]
+"412
+[e $ ! > _x1 -> 7 `i 944  ]
+[e = _x1 -> 1 `i ]
+[e :U 944 ]
+"413
+[e $ ! > _x2 -> 7 `i 945  ]
+[e = _x2 -> 1 `i ]
+[e :U 945 ]
+"414
+[e $ ! > _x3 -> 7 `i 946  ]
+[e = _x3 -> 1 `i ]
+[e :U 946 ]
+"416
+[e $ ! <= _y1 -> 1 `i 947  ]
+[e = _y1 -> 20 `i ]
+[e :U 947 ]
+"417
+[e $ ! <= _y2 -> 1 `i 948  ]
+[e = _y2 -> 20 `i ]
+[e :U 948 ]
+"418
+[e $ ! <= _y3 -> 1 `i 949  ]
+[e = _y3 -> 20 `i ]
+[e :U 949 ]
+"419
+[e $ ! > _y1 -> 20 `i 950  ]
+[e = _y1 -> 1 `i ]
+[e :U 950 ]
+"420
+[e $ ! > _y2 -> 20 `i 951  ]
+[e = _y2 -> 1 `i ]
+[e :U 951 ]
+"421
+[e $ ! > _y3 -> 20 `i 952  ]
+[e = _y3 -> 1 `i ]
+[e :U 952 ]
+"423
+[e = _x1enemic _x1 ]
+"424
+[e = _y1enemic _y1 ]
+"425
+[e = _x2enemic _x2 ]
+"426
+[e = _y2enemic _y2 ]
+"427
+[e = _x3enemic _x3 ]
+"428
+[e = _y3enemic _y3 ]
+"430
+[e ( _putchGLCD (3 , , -> _x1 `uc -> _y1 `uc _enemic ]
+"431
+[e ( _putchGLCD (3 , , -> _x2 `uc -> _y2 `uc _enemic ]
+"432
+[e ( _putchGLCD (3 , , -> _x3 `uc -> _y3 `uc _enemic ]
+"433
+[e :UE 940 ]
+}
+"436
+[v _move_nau `(v ~T0 @X0 1 ef ]
+{
+[e :U _move_nau ]
+[f ]
+"437
+[e ( _putchGLCD (3 , , -> _pos2_nau `uc -> _pos_nau `uc _nau ]
+"440
+[e $ ! && || != -> . . _PORTAbits 0 1 `i -> -> -> 0 `i `Vuc `i != -> _UP `i -> -> -> 0 `i `uc `i ! != -> _flag_up `i -> -> -> 0 `i `uc `i 954  ]
+{
+"441
+[e $ ! ! != -> _UP `i -> -> -> 0 `i `uc `i 955  ]
+[e ( _puts_usart1 (1 -> :s 1C `*uc ]
+[e :U 955 ]
+"443
+[e =- _pos2_nau -> 1 `i ]
+"445
+[e $ ! < _pos2_nau -> 1 `i 956  ]
+[e = _pos2_nau -> 1 `i ]
+[e :U 956 ]
+"447
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> + _pos2_nau -> 1 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+"448
+[e ( _putchGLCD (3 , , -> _pos2_nau `uc -> _pos_nau `uc _nau ]
+"450
+[e $ ! != -> _te_benzina `i -> -> -> 0 `i `uc `i 957  ]
+{
+"451
+[e ( _clearGLCD (4 , , , -> + _pos2_nau -> 1 `i `uc -> + _pos2_nau -> 2 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+"452
+[e ( _putchGLCD (3 , , -> + _pos2_nau -> 1 `i `uc -> _pos_nau `uc _benzina ]
+"453
+}
+[e :U 957 ]
+"454
+[e = _UP = _flag_up -> -> 0 `i `uc ]
+"455
+}
+[e $U 958  ]
+"456
+[e :U 954 ]
+[e $ ! && ! != -> . . _PORTAbits 0 1 `i -> -> -> 0 `i `Vuc `i != -> _flag_up `i -> -> -> 0 `i `uc `i 959  ]
+[e = _flag_up -> -> 1 `i `uc ]
+[e :U 959 ]
+"459
+[e :U 958 ]
+[e $ ! && || != -> . . _PORTAbits 0 4 `i -> -> -> 0 `i `Vuc `i != -> _DOWN `i -> -> -> 0 `i `uc `i ! != -> _flag_down `i -> -> -> 0 `i `uc `i 960  ]
+{
+"460
+[e $ ! ! != -> _DOWN `i -> -> -> 0 `i `uc `i 961  ]
+[e ( _puts_usart1 (1 -> :s 2C `*uc ]
+[e :U 961 ]
+"462
+[e $ ! != _pos2_nau -> 7 `i 962  ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> + _pos2_nau -> 1 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e $U 963  ]
+"463
+[e :U 962 ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> _pos2_nau `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e :U 963 ]
+"465
+[e =+ _pos2_nau -> 1 `i ]
+"467
+[e $ ! > _pos2_nau -> 7 `i 964  ]
+[e = _pos2_nau -> 7 `i ]
+[e :U 964 ]
+"469
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> - _pos2_nau -> 1 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+"470
+[e ( _putchGLCD (3 , , -> _pos2_nau `uc -> _pos_nau `uc _nau ]
+"472
+[e $ ! && <= + _pos2_nau -> 1 `i -> 7 `i != -> _te_benzina `i -> -> -> 0 `i `uc `i 965  ]
+{
+"473
+[e ( _clearGLCD (4 , , , -> + _pos2_nau -> 1 `i `uc -> + _pos2_nau -> 2 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+"474
+[e ( _putchGLCD (3 , , -> + _pos2_nau -> 1 `i `uc -> _pos_nau `uc _benzina ]
+"475
+}
+[e :U 965 ]
+"476
+[e = _DOWN = _flag_down -> -> 0 `i `uc ]
+"477
+}
+[e $U 966  ]
+"478
+[e :U 960 ]
+[e $ ! && ! != -> . . _PORTAbits 0 4 `i -> -> -> 0 `i `Vuc `i != -> _flag_down `i -> -> -> 0 `i `uc `i 967  ]
+[e = _flag_down -> -> 1 `i `uc ]
+[e :U 967 ]
+"481
+[e :U 966 ]
+[e $ ! && || != -> . . _PORTAbits 0 3 `i -> -> -> 0 `i `Vuc `i != -> _LEFT `i -> -> -> 0 `i `uc `i ! != -> _flag_left `i -> -> -> 0 `i `uc `i 968  ]
+{
+"482
+[e $ ! ! != -> _LEFT `i -> -> -> 0 `i `uc `i 969  ]
+[e ( _puts_usart1 (1 -> :s 3C `*uc ]
+[e :U 969 ]
+"484
+[e $ ! != _pos2_nau -> 7 `i 970  ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> + _pos2_nau -> 1 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e $U 971  ]
+"485
+[e :U 970 ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> _pos2_nau `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e :U 971 ]
+"487
+[e =- _pos_nau -> 1 `i ]
+"489
+[e $ ! < _pos_nau -> 0 `i 972  ]
+[e = _pos_nau -> 0 `i ]
+[e :U 972 ]
+"492
+[e ( _putchGLCD (3 , , -> _pos2_nau `uc -> _pos_nau `uc _nau ]
+"494
+[e $ ! && <= + _pos2_nau -> 1 `i -> 7 `i != -> _te_benzina `i -> -> -> 0 `i `uc `i 973  ]
+{
+"495
+[e ( _putchGLCD (3 , , -> + _pos2_nau -> 1 `i `uc -> _pos_nau `uc _benzina ]
+"496
+}
+[e :U 973 ]
+"497
+[e = _LEFT = _flag_left -> -> 0 `i `uc ]
+"498
+}
+[e $U 974  ]
+"499
+[e :U 968 ]
+[e $ ! && ! != -> . . _PORTAbits 0 3 `i -> -> -> 0 `i `Vuc `i != -> _flag_left `i -> -> -> 0 `i `uc `i 975  ]
+[e = _flag_left -> -> 1 `i `uc ]
+[e :U 975 ]
+"502
+[e :U 974 ]
+[e $ ! && || != -> . . _PORTAbits 0 2 `i -> -> -> 0 `i `Vuc `i != -> _RIGHT `i -> -> -> 0 `i `uc `i ! != -> _flag_right `i -> -> -> 0 `i `uc `i 976  ]
+{
+"503
+[e $ ! ! != -> _RIGHT `i -> -> -> 0 `i `uc `i 977  ]
+[e ( _puts_usart1 (1 -> :s 4C `*uc ]
+[e :U 977 ]
+"505
+[e $ ! != _pos2_nau -> 7 `i 978  ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> + _pos2_nau -> 1 `i `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e $U 979  ]
+"506
+[e :U 978 ]
+[e ( _clearGLCD (4 , , , -> _pos2_nau `uc -> _pos2_nau `uc -> * _pos_nau -> 5 `i `uc -> + * _pos_nau -> 5 `i -> 5 `i `uc ]
+[e :U 979 ]
+"508
+[e =+ _pos_nau -> 1 `i ]
+"510
+[e $ ! > _pos_nau -> 20 `i 980  ]
+[e = _pos_nau -> 20 `i ]
+[e :U 980 ]
+"512
+[e ( _putchGLCD (3 , , -> _pos2_nau `uc -> _pos_nau `uc _nau ]
+"514
+[e $ ! && <= + _pos2_nau -> 1 `i -> 7 `i != -> _te_benzina `i -> -> -> 0 `i `uc `i 981  ]
+{
+"515
+[e ( _putchGLCD (3 , , -> + _pos2_nau -> 1 `i `uc -> _pos_nau `uc _benzina ]
+"516
+}
+[e :U 981 ]
+"517
+[e = _RIGHT = _flag_right -> -> 0 `i `uc ]
+"518
+}
+[e $U 982  ]
+"519
+[e :U 976 ]
+[e $ ! && ! != -> . . _PORTAbits 0 2 `i -> -> -> 0 `i `Vuc `i != -> _flag_right `i -> -> -> 0 `i `uc `i 983  ]
+[e = _flag_right -> -> 1 `i `uc ]
+[e :U 983 ]
+"520
+[e :U 982 ]
+[e :UE 953 ]
+}
+"523
+[v _dificultat `(v ~T0 @X0 1 ef ]
+{
+[e :U _dificultat ]
+[f ]
+"524
+[e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
+"525
+[e $U 985  ]
+[e :U 986 ]
+{
+}
+[e :U 985 ]
+[e $ != -> . . _ADCON0bits 2 1 `i -> -> -> 0 `i `Vuc `i 986  ]
+[e :U 987 ]
+"526
+[v _despres `i ~T0 @X0 1 a ]
+[e = _despres | << -> _ADRESH `i -> 8 `i -> _ADRESL `i ]
+"529
+[e $ ! > _playing -> 0 `i 988  ]
+{
+"530
+[e $ ! && >= _despres -> 0 `i < _despres -> 256 `i 989  ]
+{
+"531
+[e = _nivell -> 5 `i ]
+"532
+[e ( _writeTxt (3 , , -> -> 0 `i `uc -> -> 6 `i `uc -> :s 5C `*uc ]
+"533
+}
+[e $U 990  ]
+"534
+[e :U 989 ]
+[e $ ! && > _despres -> 255 `i < _despres -> 511 `i 991  ]
+{
+"535
+[e = _nivell -> 4 `i ]
+"536
+[e ( _writeTxt (3 , , -> -> 0 `i `uc -> -> 6 `i `uc -> :s 6C `*uc ]
+"537
+}
+[e $U 992  ]
+"538
+[e :U 991 ]
+[e $ ! && > _despres -> 510 `i < _despres -> 766 `i 993  ]
+{
+"539
+[e = _nivell -> 3 `i ]
+"540
+[e ( _writeTxt (3 , , -> -> 0 `i `uc -> -> 6 `i `uc -> :s 7C `*uc ]
+"541
+}
+[e $U 994  ]
+"542
+[e :U 993 ]
+{
+"543
+[e = _nivell -> 2 `i ]
+"544
+[e ( _writeTxt (3 , , -> -> 0 `i `uc -> -> 6 `i `uc -> :s 8C `*uc ]
+"545
+}
+[e :U 994 ]
+[e :U 992 ]
+[e :U 990 ]
+"546
+}
+[e :U 988 ]
+"547
+[e :UE 984 ]
+}
+[v $root$_rsi `(v ~T0 @X0 0 e ]
+[v F6173 `(v ~T0 @X0 1 tf ]
+"550
+[v _rsi `IF6173 ~T0 @X0 1 e ]
+{
+[e :U _rsi ]
+[f ]
+"552
+[e $ ! && _TMR0IE _TMR0IF 996  ]
+{
+"553
+[e = _TMR0IF -> -> 0 `i `b ]
+"554
+[e $ ! != _playing -> 0 `i 997  ]
+{
+"556
+[e = _TMR0H -> -> 60 `i `uc ]
+"557
+[e = _TMR0L -> -> 176 `i `uc ]
+"558
+[e =+ _roda -> 1 `i ]
+"559
+[e =+ _decimes -> -> 1 `i `uc ]
+"560
+[e = _n1 = _n2 = _n3 = _n4 -> -> 0 `i `uc ]
+"561
+[e $ ! == -> _decimes `i -> 10 `i 998  ]
+{
+"562
+[e = _decimes -> -> 0 `i `uc ]
+"563
+[e ++ _segons -> -> 1 `i `uc ]
+"565
+[e $ ! == % -> _segons `i -> 5 `i -> 0 `i 999  ]
+[e = _n1 -> -> 1 `i `uc ]
+[e :U 999 ]
+"566
+[e $ ! == % -> _segons `i -> 4 `i -> 0 `i 1000  ]
+[e = _n2 -> -> 1 `i `uc ]
+[e :U 1000 ]
+"567
+[e $ ! == % -> _segons `i -> 3 `i -> 0 `i 1001  ]
+[e = _n3 -> -> 1 `i `uc ]
+[e :U 1001 ]
+"568
+[e $ ! == % -> _segons `i -> 2 `i -> 0 `i 1002  ]
+[e = _n4 -> -> 1 `i `uc ]
+[e :U 1002 ]
+"570
+[e $ ! == -> _segons `i -> 59 `i 1003  ]
+{
+"571
+[e = _segons -> -> 0 `i `uc ]
+"572
+[e ++ _minuts -> -> 1 `i `uc ]
+"573
+[e $ ! == -> _minuts `i -> 59 `i 1004  ]
+{
+"574
+[e = _minuts -> -> 0 `i `uc ]
+"575
+[e = _minuts = _segons = _decimes -> -> 0 `i `uc ]
+"576
+}
+[e :U 1004 ]
+"577
+}
+[e :U 1003 ]
+"578
+}
+[e :U 998 ]
+"580
+}
+[e :U 997 ]
+"581
+}
+[e :U 996 ]
+"583
+[e $ ! && _TMR2IE _TMR2IF 1005  ]
+{
+"584
+[e = _TMR2IF -> -> 0 `i `b ]
+"585
+[e $ ! > _duty_anterior _carrega 1006  ]
+[e =+ _CCPR1L -> -> 1 `i `uc ]
+[e :U 1006 ]
+"586
+[e = _duty_anterior _carrega ]
+"587
+}
+[e :U 1005 ]
+"588
+[e :UE 995 ]
+}
+"591
+[v _reinici `(v ~T0 @X0 1 ef ]
+{
+[e :U _reinici ]
+[f ]
+"592
+[e ( _clearGLCD (4 , , , -> -> 0 `i `uc -> -> 7 `i `uc -> -> 0 `i `uc -> -> 127 `i `uc ]
+"593
+[e = _playing -> 1 `i ]
+"594
+[e = _vides -> 3 `i ]
+"595
+[e = _punts -> 0 `i ]
+"596
+[e = _flag_fi -> -> 0 `i `uc ]
+"597
+[e = _flag_ant -> -> 0 `i `uc ]
+"598
+[e = _te_benzina -> -> 0 `i `uc ]
+"599
+[e = _carrega -> 48 `i ]
+"600
+[e = _CCPR1L -> -> 0 `i `uc ]
+"601
+[e = _minuts = _segons = _decimes -> -> 0 `i `uc ]
+"602
+[e ( _putchGLCD (3 , , -> -> 7 `i `uc -> -> 20 `i `uc _base ]
+"603
+[e :UE 1007 ]
+}
+"606
+[v _inici `(v ~T0 @X0 1 ef ]
+{
+[e :U _inici ]
+[f ]
+"607
+[v _f `i ~T0 @X0 1 a ]
+[e = _f -> 0 `i ]
+"608
+[e $U 1009  ]
+[e :U 1010 ]
+{
+"609
+[e $ ! ! != _f -> 0 `i 1012  ]
+{
+"610
+[e ( _writeTxt (3 , , -> -> 3 `i `uc -> -> 9 `i `uc -> :s 9C `*uc ]
+"611
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 6 `i `uc -> :s 10C `*uc ]
+"612
+[e ( _writeTxt (3 , , -> -> 5 `i `uc -> -> 9 `i `uc -> :s 11C `*uc ]
+"614
+[e ( _puts_usart1 (1 -> :s 12C `*uc ]
+"615
+[e ( _puts_usart1 (1 -> :s 13C `*uc ]
+"616
+[e ( _puts_usart1 (1 -> :s 14C `*uc ]
+"617
+[e ( _puts_usart1 (1 -> :s 15C `*uc ]
+"618
+[e ( _puts_usart1 (1 -> :s 16C `*uc ]
+"619
+[e ( _puts_usart1 (1 -> :s 17C `*uc ]
+"620
+[e = _f -> 1 `i ]
+"621
+}
+[e :U 1012 ]
+"622
+}
+[e :U 1009 ]
+"608
+[e $ ! != -> . . _PORTAbits 0 5 `i -> -> -> 0 `i `Vuc `i 1010  ]
+[e :U 1011 ]
+"623
+[e :UE 1008 ]
+}
+"626
+[v _final `(v ~T0 @X0 1 ef ]
+{
+[e :U _final ]
+[f ]
+"627
+[e = _playing -> 0 `i ]
+"628
+[e = _CCPR1L -> -> 0 `i `uc ]
+"629
+[e ( _clearGLCD (4 , , , -> -> 0 `i `uc -> -> 7 `i `uc -> -> 0 `i `uc -> -> 127 `i `uc ]
+"631
+[e ( _writeTxt (3 , , -> -> 0 `i `uc -> -> 0 `i `uc -> :s 18C `*uc ]
+"632
+[e ( _writeTxt (3 , , -> -> 1 `i `uc -> -> 8 `i `uc -> :s 19C `*uc ]
+"635
+[e $ ! == -> _n_ant `i _nivell 1014  ]
+{
+"636
+[e $ ! > _punts -> 10 `i 1015  ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 10 `i `uc _punts ]
+[e $U 1016  ]
+"637
+[e :U 1015 ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 11 `i `uc _punts ]
+[e :U 1016 ]
+"638
+[e ( _putchGLCD (3 , , -> -> 5 `i `uc -> -> 12 `i `uc -> -> 47 `ui `uc ]
+"639
+[e $ ! == _nivell -> 5 `i 1017  ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 13 `i `uc -> 6 `i ]
+[e $U 1018  ]
+"640
+[e :U 1017 ]
+[e $ ! == _nivell -> 4 `i 1019  ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 13 `i `uc -> 7 `i ]
+[e $U 1020  ]
+"641
+[e :U 1019 ]
+[e $ ! == _nivell -> 3 `i 1021  ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 13 `i `uc -> 9 `i ]
+[e $U 1022  ]
+"642
+[e :U 1021 ]
+[e $ ! == _nivell -> 2 `i 1023  ]
+[e ( _writeNum (3 , , -> -> 5 `i `uc -> -> 13 `i `uc -> 13 `i ]
+[e :U 1023 ]
+"643
+[e :U 1022 ]
+[e :U 1020 ]
+[e :U 1018 ]
+}
+[e :U 1014 ]
+"645
+[e $ ! && == _vides -> 0 `i > _carrega -> 41 `i 1024  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 3 `i `uc -> :s 20C `*uc ]
+[e $U 1025  ]
+"646
+[e :U 1024 ]
+[e $ ! && == _vides -> 0 `i > _carrega -> 35 `i 1026  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 6 `i `uc -> :s 21C `*uc ]
+[e $U 1027  ]
+"647
+[e :U 1026 ]
+[e $ ! && == _vides -> 0 `i > _carrega -> 20 `i 1028  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 8 `i `uc -> :s 22C `*uc ]
+[e :U 1028 ]
+"649
+[e :U 1027 ]
+[e :U 1025 ]
+[e $ ! == _vides -> 3 `i 1029  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 4 `i `uc -> :s 23C `*uc ]
+[e :U 1029 ]
+"650
+[e $ ! == _vides -> 2 `i 1030  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 8 `i `uc -> :s 24C `*uc ]
+[e :U 1030 ]
+"651
+[e $ ! == _vides -> 1 `i 1031  ]
+[e ( _writeTxt (3 , , -> -> 4 `i `uc -> -> 9 `i `uc -> :s 25C `*uc ]
+[e :U 1031 ]
+"653
+[e $ ! != -> _flag_fi `i -> -> -> 0 `i `uc `i 1032  ]
+[e ( _writeTxt (3 , , -> -> 7 `i `uc -> -> 7 `i `uc -> :s 26C `*uc ]
+[e $U 1033  ]
+"654
+[e :U 1032 ]
+[e ( _writeTxt (3 , , -> -> 7 `i `uc -> -> 7 `i `uc -> :s 27C `*uc ]
+[e :U 1033 ]
+"656
+[e ( _puts_usart1 (1 -> :s 28C `*uc ]
+"658
+[e $U 1034  ]
+[e :U 1035 ]
+{
+}
+[e :U 1034 ]
+[e $ ! != -> . . _PORTAbits 0 5 `i -> -> -> 0 `i `Vuc `i 1035  ]
+[e :U 1036 ]
+"660
+[e ( _reinici ..  ]
+"661
+[e :UE 1013 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"663
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"664
+[e ( _Config_PIC_Global ..  ]
+"666
+[e ( _splash ..  ]
+"667
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"668
+[e ( _clearGLCD (4 , , , -> -> 0 `i `uc -> -> 7 `i `uc -> -> 0 `i `uc -> -> 127 `i `uc ]
+"670
+[e ( _inici ..  ]
+"671
+[e $ ! != -> . . _PORTAbits 0 5 `i -> -> -> 0 `i `Vuc `i 1038  ]
+[e = _playing -> 1 `i ]
+[e :U 1038 ]
+"672
+[e ( _clearGLCD (4 , , , -> -> 0 `i `uc -> -> 7 `i `uc -> -> 0 `i `uc -> -> 127 `i `uc ]
+"673
+[e = _vides -> 3 `i ]
+"675
+[e :U 1040 ]
+{
+"677
+[e $ ! > _playing -> 0 `i 1042  ]
+{
+"679
+[e ( _update_cronometre ..  ]
+"681
+[e $ ! && == _nivell -> 5 `i != -> _n1 `i -> -> -> 0 `i `uc `i 1043  ]
+[e ( _move_enemics ..  ]
+[e $U 1044  ]
+"682
+[e :U 1043 ]
+[e $ ! && == _nivell -> 4 `i != -> _n2 `i -> -> -> 0 `i `uc `i 1045  ]
+[e ( _move_enemics ..  ]
+[e $U 1046  ]
+"683
+[e :U 1045 ]
+[e $ ! && == _nivell -> 3 `i != -> _n3 `i -> -> -> 0 `i `uc `i 1047  ]
+[e ( _move_enemics ..  ]
+[e $U 1048  ]
+"684
+[e :U 1047 ]
+[e $ ! && == _nivell -> 2 `i != -> _n4 `i -> -> -> 0 `i `uc `i 1049  ]
+[e ( _move_enemics ..  ]
+[e :U 1049 ]
+"687
+[e :U 1048 ]
+[e :U 1046 ]
+[e :U 1044 ]
+[e ( _agafa_benzina ..  ]
+"688
+[e ( _move_nau ..  ]
+"689
+[e ( _deixa_benzina ..  ]
+"692
+[e ( _colisio ..  ]
+"693
+[e ( _spawn ..  ]
+"696
+[e ( _rectangle ..  ]
+"699
+[e ( _update_vides ..  ]
+"700
+[e ( _putchGLCD (3 , , -> -> 7 `i `uc -> -> 20 `i `uc _base ]
+"703
+[e ( _dificultat ..  ]
+"707
+[e $ ! _RC1IF 1050  ]
+{
+"708
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c _RCREG1 ]
+"709
+[e $ ! == -> _c `ui -> 13 `ui 1051  ]
+{
+}
+[e $U 1052  ]
+"710
+[e :U 1051 ]
+{
+"711
+[e = _comand _c ]
+"712
+[e $ ! == -> _comand `ui -> 113 `ui 1053  ]
+[e = _UP -> -> 1 `i `uc ]
+[e :U 1053 ]
+"713
+[e $ ! == -> _comand `ui -> 97 `ui 1054  ]
+[e = _DOWN -> -> 1 `i `uc ]
+[e :U 1054 ]
+"714
+[e $ ! == -> _comand `ui -> 111 `ui 1055  ]
+[e = _LEFT -> -> 1 `i `uc ]
+[e :U 1055 ]
+"715
+[e $ ! == -> _comand `ui -> 112 `ui 1056  ]
+[e = _RIGHT -> -> 1 `i `uc ]
+[e :U 1056 ]
+"716
+}
+[e :U 1052 ]
+"717
+}
+[e :U 1050 ]
+"720
+[e $ ! || ! != _vides -> 0 `i != -> _flag_fi `i -> -> -> 0 `i `uc `i 1057  ]
+{
+"721
+[e = _playing -> 0 `i ]
+"722
+[e ( _final ..  ]
+"723
+}
+[e :U 1057 ]
+"724
+}
+[e :U 1042 ]
+"725
+}
+[e :U 1039 ]
+"675
+[e $U 1040  ]
+[e :U 1041 ]
+"726
+[e :UE 1037 ]
+}
+[a 25C 84 72 82 73 70 84 89 0 ]
+[a 8C 69 88 84 82 69 77 69 0 ]
+[a 27C 71 65 77 69 32 70 65 73 76 69 68 0 ]
+[a 26C 71 65 77 69 32 83 85 67 67 69 69 68 0 ]
+[a 9C 74 69 84 80 73 67 0 ]
+[a 24C 71 82 69 65 84 32 74 79 66 0 ]
+[a 21C 84 72 65 84 39 83 32 65 76 76 63 0 ]
+[a 20C 83 69 76 69 67 84 32 69 65 83 89 32 77 79 68 69 32 58 40 0 ]
+[a 19C 38 32 38 32 38 32 38 32 38 0 ]
+[a 18C 35 32 35 32 35 32 35 32 71 65 77 69 32 79 86 69 82 32 35 32 35 32 35 32 35 0 ]
+[a 22C 78 73 67 69 32 84 82 89 33 0 ]
+[a 23C 70 76 65 87 76 69 83 83 32 86 73 67 84 79 82 89 33 0 ]
+[a 6C 76 73 86 69 76 89 33 0 ]
+[a 10C 80 82 69 83 83 32 83 84 65 82 84 33 0 ]
+[a 7C 66 82 85 84 65 76 33 0 ]
+[a 5C 66 79 82 73 78 71 33 0 ]
+[a 11C 38 32 38 32 38 32 0 ]
+[a 4C 82 105 103 104 116 13 0 ]
+[a 3C 76 101 102 116 13 0 ]
+[a 14C 77 111 118 105 109 101 110 116 32 100 101 32 108 97 32 110 97 117 32 97 109 98 32 98 111 116 111 110 115 32 102 105 115 105 99 115 13 0 ]
+[a 1C 85 112 13 0 ]
+[a 16C 32 85 80 58 32 32 32 32 113 13 32 68 79 87 78 58 32 32 97 13 32 76 69 70 84 58 32 32 111 13 32 82 73 71 72 84 58 32 112 13 0 ]
+[a 2C 68 111 119 110 13 0 ]
+[a 12C 32 32 32 32 47 47 47 47 74 69 84 80 73 67 92 92 92 92 32 13 80 82 79 74 69 67 84 32 77 65 68 69 32 66 89 32 80 65 85 32 67 65 77 80 73 76 76 79 32 105 32 66 105 98 101 107 13 0 ]
+[a 15C 77 111 118 105 109 101 110 116 32 100 101 32 108 97 32 110 97 117 32 97 109 98 32 116 101 99 108 97 116 58 13 0 ]
+[a 13C 47 47 73 110 115 116 114 117 99 99 105 111 110 115 58 13 0 ]
+[a 28C 13 80 82 69 83 83 32 83 84 65 82 84 32 84 79 32 80 76 65 89 33 13 0 ]
+[a 17C 80 82 69 83 83 32 83 84 65 82 84 32 84 79 32 80 76 65 89 33 13 0 ]
